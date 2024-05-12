@@ -1,13 +1,108 @@
 .nav {
     display: flex;
-    justify-content: space-around;
-    background-color: black;
-    color: white;
+    justify-content:space-around;
     padding: 15px;
     font-size: 2em;
+    width: 30vw;
+   
   }
   
   .nav a {
-    color: white;
+    color: rgb(48, 81, 48);
     text-decoration: none;
   }
+  .logo{
+    width: 90px;
+    border-radius: 50%;
+  }
+  .navLogo{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .home{
+    text-align: center;
+    color: rgb(61, 114, 61);
+  }
+  
+  .homeImg{
+    display: flex;
+    
+    width: 80VW;
+    position: relative;
+    left: 10VW;
+   
+   
+  }
+  .homeImg img {
+    width: 50%;
+    height: fit-content;
+  }
+
+  .result {
+    margin-bottom: 30px;
+    margin-right: 20px ;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 10px;
+    
+    
+  }
+  .result ul{
+    list-style: none;
+  }
+
+  .recipes{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+  }
+  .recipes h1{
+    color: rgb(61, 114, 61);
+    font-weight: 200;
+  }
+
+  button{
+
+    background-color:rgb(51, 101, 51);
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    margin: 10px 0px 10px;
+  
+  }
+
+  .list{
+    text-align: center;
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: rgb(61, 114, 61);
+   
+  }
+ 
+
+  .list a {
+
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
+
+  }
+
+  .listMap{
+
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  

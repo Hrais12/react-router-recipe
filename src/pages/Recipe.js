@@ -13,7 +13,7 @@ export default function Recipe(props) {
   const recipeId = params.recipeId;
 
   // Constructing the URL for fetching recipe data
-  const url = `https://api.edamam.com/search?q=${recipeId}&app_id=${appId}&app_key=${apiKey}`;
+  const url = `https://api.edamam.com/search?q=${recipeId}&app_id=${appId}&app_key=${apiKey}&to=12`;
 
   // State to hold the recipe data
   const [recipe, setRecipe] = useState(null);
@@ -37,9 +37,9 @@ export default function Recipe(props) {
   // Function to render recipe data when loaded
   const renderRecipe = () => {
     return (
-      <div>
+      <div className="recipes">
         {recipe.hits.map((hit, index) => (
-          <div key={index}>
+          <div key={index} className="result">
             <h1>{hit.recipe.label}</h1>
             <img src={hit.recipe.image} alt={hit.recipe.label}></img>
 
