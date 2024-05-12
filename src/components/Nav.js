@@ -6,6 +6,7 @@ export default function Nav(props) {
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgafPDEmAPYNU64xOeQCWZ-NbzQ15cyUxMsjH5tnYIiA&s"
         className="logo"
+        alt="logo"
       ></img>
       <div className="nav">
         <Link to="/">

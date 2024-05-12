@@ -30,9 +30,13 @@ export default function Recipe(props) {
   };
 
   // useEffect to fetch recipe data when component mounts
-  useEffect(() => {
-    fetchRecipe();
-  }, []);
+  useEffect(
+    () => {
+      fetchRecipe();
+    },
+    // eslint-disable-next-line
+    []
+  );
 
   // Function to render recipe data when loaded
   const renderRecipe = () => {
